@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Mine invest</title>
+		<link rel="shortcut icon" href="./images/pictures/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="./css/style.css">
+		<script src="./js/app.js"></script>
+		<script src="./js/aos.js"></script>
+		<script src="./js/main.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header" data-aos="fade-down">
+				<div class="container clearfix">
+					<button class="header__menu-toggle toggle-menu" type="button"></button>
+					<div class="header__logo logo"><a class="logo__link" href="./index.html"><img class="logo__img" src="./images/pictures/logo.png"></a></div><a class="header__call call-link js-popup-modal" href="#call-modal">Заказать звонок</a><a class="header__call-icon js-popup-modal" href="#call-modal"></a>
+					<div class="header__menu">
+						<div class="menu">
+							<div class="menu__elem"><a class="menu__link" href="./index.html">Главная страница</a></div>
+							<div class="menu__elem"><a class="menu__link" href="./about.html">О компании</a></div>
+							<div class="menu__elem"><a class="menu__link" href="./catalog.html">Каталог товаров</a></div>
+							<div class="menu__elem"><a class="menu__link" href="./repair.html">Обслуживание</a></div>
+							<div class="menu__elem"><a class="menu__link" href="./news.html">Новости</a></div>
+							<div class="menu__elem"><a class="menu__link" href="./exchange.html">Обменник</a></div>
+							<div class="menu__elem"><a class="menu__link" href="./contact.html">Контакты</a></div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="content">
+				<div class="page page_exchange">
+					<div class="page__first">
+						<div class="page__first-box">
+							<div class="container"></div>
+							<h1 class="page__title" data-aos="fade-up" data-aos-duration="700">Обменник</h1>
+							<div class="page__line" data-aos="fade-up" data-aos-duration="800"></div>
+							<div class="page__description" data-aos="fade-up" data-aos-duration="900">Обменный пункт Mine invest – это ресурс, который в скорем времени будет работатать в сфере обмена<br>крипто валют и зарекомендует себя высокой безопасностью и скоростью обменов.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="footer">
+				<div class="container clearfix">
+					<div class="footer__menu">
+						<div class="footer__title">Навигация</div>
+						<div class="bottom-menu">
+							<div class="bottom-menu__elem"><a class="bottom-menu__link" href="#">Главная страница</a></div>
+							<div class="bottom-menu__elem"><a class="bottom-menu__link" href="#">Обслуживание</a></div>
+							<div class="bottom-menu__elem"><a class="bottom-menu__link" href="#">О компании</a></div>
+							<div class="bottom-menu__elem"><a class="bottom-menu__link" href="#">Новости</a></div>
+							<div class="bottom-menu__elem"><a class="bottom-menu__link" href="#">Каталог товаров</a></div>
+							<div class="bottom-menu__elem"><a class="bottom-menu__link" href="#">Обменник</a></div>
+						</div>
+					</div>
+					<div class="footer__contact">
+						<div class="footer__contact-row">
+							<div class="footer__contact-left">
+								<div class="footer__title">Контакты</div>
+								<div class="footer__contact-address">Г. Иркутск, ул. Ракитная , д. 12</div>
+								<div class="footer__contact-address">Г. Москва, ул. Пушкина, д. 99</div>
+								<div class="footer__contact-email">Mine-invest@mail.ru</div>
+							</div>
+							<div class="footer__contact-right">
+								<div class="social"><a class="social__elem" href="#"><span class="social__icon icon icon_vk"></span></a><a class="social__elem" href="#"><span class="social__icon icon icon_fb"></span></a><a class="social__elem" href="#"><span class="social__icon icon icon_tel"></span></a></div>
+								<div class="footer__contact-work">Пнд-Пт 09:00 - 17:00</div>
+								<div class="footer__contact-phone">8-800-000-0000</div><a class="footer__contact-btn js-popup-modal" href="#call-modal">Заказать звонок</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__logo">
+						<div class="logo"><a class="logo__link" href="#"><img class="logo__img" src="./images/pictures/logo_2.png"></a></div>
+					</div>
+					<div class="footer__copy">2018, mine-invest. Все права защищены</div>
+				</div>
+			</footer>
+			<div class="modal modal_call mfp-hide" id="call-modal">
+				<div class="modal__content">
+					<div class="modal__title">Обратный звонок</div>
+					<form class="form form_modal" action="">
+						<div class="form__group">
+							<div class="form__label">Имя :</div>
+							<input class="form__input" type="text" placeholder="Иван Иванов">
+						</div>
+						<div class="form__group">
+							<div class="form__label">Номер телефона :</div>
+							<input class="form__input" type="text" placeholder="8 914 923 2357">
+						</div>
+						<div class="form__send-box">
+							<button class="form__send btn btn_blue" type="submit">Отправить</button>
+						</div>
+					</form>
+				</div>
+				<div class="modal__content modal__thanks modal__hidden">
+					<div class="modal__title">готово</div>
+					<div class="modal__icon"><span class="icon icon_ok"></span></div>
+					<div class="modal__text">Спасибо, наш менеджер по работе с клиентами<br>свяжется с вами в ближайшее время</div>
+					<button class="form__send btn btn_blue js-close-modal" type="button">Закрыть</button>
+				</div>
+			</div>
+			<div class="modal modal_call mfp-hide" id="order-modal">
+				<div class="modal__content">
+					<div class="modal__title">Сделать заказ</div>
+					<form class="form form_modal" action="">
+						<div class="form__group">
+							<div class="form__label">Имя :</div>
+							<input class="form__input" type="text" placeholder="Иван Иванов">
+						</div>
+						<div class="form__group">
+							<div class="form__label">Номер телефона :</div>
+							<input class="form__input" type="text" placeholder="8 914 923 2357">
+						</div>
+						<div class="form__group">
+							<div class="form__label">Ваши пожелания :</div>
+							<input class="form__input" type="text" placeholder="Перезвонить после 12:00 и т.д">
+						</div>
+						<div class="form__send-box">
+							<button class="form__send btn btn_blue" type="submit">Отправить</button>
+						</div>
+					</form>
+				</div>
+				<div class="modal__content modal__thanks modal__hidden">
+					<div class="modal__title">готово</div>
+					<div class="modal__icon"><span class="icon icon_ok"></span></div>
+					<div class="modal__text">Спасибо, наш менеджер по работе с клиентами<br>свяжется с вами в ближайшее время</div>
+					<button class="form__send btn btn_blue js-close-modal" type="button">Закрыть</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
